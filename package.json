@@ -1,0 +1,26 @@
+{
+  "name": "rektjs",
+  "version": "1.0.0",
+  "description": "DOM component library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.dev.config.js --content-base demo/",
+    "build": "webpack --config webpack.build.commonjs.config.js",
+    "build:browser": "webpack --config webpack.build.browser.config.js"
+  },
+  "author": "Rasmus Knudsen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-syntax-jsx": "^6.13.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "copy-webpack-plugin": "^3.0.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {}
+}
